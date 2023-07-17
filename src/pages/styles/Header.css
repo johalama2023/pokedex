@@ -1,0 +1,38 @@
+.header-container {
+  height: 160px;
+  width: 100%;
+  position: relative;
+}
+
+.header-red {
+  background-color: #DD1A1A;
+  width: 100%;
+  height: 100%;
+}
+
+.header-black {
+  position: absolute;
+  background-color: black;
+  height:50px;
+  width: 100%;
+  z-index: 1;
+  bottom: -1px;
+}
+
+.header-img {
+  max-width: 430px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  z-index: 2;
+}
+
+@media (max-width: 375px)
+{
+  .header-img
+  {
+    max-width: 360px;
+    padding: 0;
+    margin: 0;
+  }
+}

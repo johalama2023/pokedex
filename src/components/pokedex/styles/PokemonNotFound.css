@@ -1,0 +1,45 @@
+.pokeNotFound__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/ef/72/4f/ef724f2c2cf02a434b8464f17fe40ca1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pokemonNotFound__title{
+    font-size: 3em;
+    color:#ff0000;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: #00000090;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.pokemonNotFound__link{
+    font-size: 1em;
+    color:#fff;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #ff000090;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media (max-width: 375px)
+  {
+    .pokemonNotFound__title
+    {
+      width: 100%;
+      padding: 3px;
+      font-size: 1.5em;
+    }
+  }
